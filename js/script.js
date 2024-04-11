@@ -35,4 +35,18 @@ const teamMembers = [
     },
 ];
 
-console.log(teamMembers[0]);
+// Stampo in console le informazioni di ogni team member
+
+// Creo ciclo per scorrere nell'array teamMembers
+
+for (let i = 0; i < teamMembers.length; i++) {
+    const currMember = teamMembers[i];
+
+    console.log("- - - - - - - - -");
+
+    // Creo ciclo for in per stampare in console tutte le proprietà di ogni team member
+
+    for (let key in currMember) {
+        console.log(currMember[key]);
+    };
+};
