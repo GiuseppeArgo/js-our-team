@@ -10,7 +10,7 @@ Scott Estrada	Developer	            scott-estrada-developer.jpg
 Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 
 - MILESTONE 0
-[ ] Creare l’array di oggetti con le informazioni fornite.
+[x] Creare l’array di oggetti con le informazioni fornite.
 
 - MILESTONE 1
 [ ] Stampare su console le informazioni di nome, ruolo e la stringa della foto per ogni membro del team
