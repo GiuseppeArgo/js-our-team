@@ -60,14 +60,11 @@ for (let i = 0; i < teamMembers.length; i++) {
     // Stapo la classe in pagina
     teamMembersRow.innerHTML += `
     <div class="col">
-      <div class="card">
-            <div class="card-body text-center">
-                <img src="../img/${currMember.pic}" alt="member">
-                <h5 class="card-title mt-2">${currMember.name}</h5>
-                <h6 class="card-subtitle mt-2 mb-2 text-body-secondary">
-                    Ruolo: ${currMember.role}
-                </h6>
-            </div>
+        <div class="card">
+            <img src="../img/${currMember.pic}" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">${currMember.name}</h5>
+            <p class="card-text">${currMember.role}</p>
         </div>
     </div>
     `;
