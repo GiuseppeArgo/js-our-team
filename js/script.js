@@ -61,14 +61,14 @@ for (let i = 0; i < teamMembers.length; i++) {
     teamMembersRow.innerHTML += `
     <div class="col">
       <div class="card">
-        <div class="card-body text-center">
-          <h4 class="card--subtitle mb-2 text-body-secondary">${currMember.pic}</h4>
-          <h5 class="card-title">${currMember.name}</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">
-            Ruolo: ${currMember.role}
-          </h6>
+            <div class="card-body text-center">
+                <img src="../img/${currMember.pic}" alt="member">
+                <h5 class="card-title mt-2">${currMember.name}</h5>
+                <h6 class="card-subtitle mt-2 mb-2 text-body-secondary">
+                    Ruolo: ${currMember.role}
+                </h6>
+            </div>
         </div>
-      </div>
     </div>
     `;
   }
